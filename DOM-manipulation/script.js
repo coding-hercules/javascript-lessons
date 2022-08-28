@@ -15,8 +15,10 @@ const thirdStyle = document.createElement('div');
 
 const fourthStyle = document.createElement('h1');
     fourthStyle.textContent = "I'm in a div";
+    thirdStyle.appendChild(fourthStyle);
 
 const fifthStyle = document.createElement('p');
     fifthStyle.textContent = 'ME TOO!';
+    thirdStyle.appendChild(fifthStyle);
 
-    
+
