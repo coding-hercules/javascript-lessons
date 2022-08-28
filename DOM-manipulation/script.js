@@ -23,4 +23,11 @@ const fifthStyle = document.createElement('p');
 
 /* container.appendChild(thirdStyle); */
 
+const btn = document.querySelector('#btn')
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
 
+btn.addEventListener('click', function(e) {
+    console.log(e);
+});
