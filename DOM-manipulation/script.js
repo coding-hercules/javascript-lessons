@@ -11,4 +11,12 @@ const secondText = document.createElement('h3');
 const thirdStyle = document.createElement('div');
     thirdStyle.setAttribute('style', 'background-color: pink; border: 1px solid black');
     thirdStyle.setAttribute('id', 'container2');
-    container.appendChild(thirdStyle);
+    /* container.appendChild(thirdStyle); */
+
+const fourthStyle = document.createElement('h1');
+    fourthStyle.textContent = "I'm in a div";
+
+const fifthStyle = document.createElement('p');
+    fifthStyle.textContent = 'ME TOO!';
+
+    
