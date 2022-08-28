@@ -29,5 +29,7 @@ function alertFunction() {
 }
 
 btn.addEventListener('click', function(e) {
-    console.log(e);
+    console.log(e.id);
+    alert(btn.id);
+    e.target.style.background = 'blue';
 });
