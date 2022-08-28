@@ -21,4 +21,6 @@ const fifthStyle = document.createElement('p');
     fifthStyle.textContent = 'ME TOO!';
     thirdStyle.appendChild(fifthStyle);
 
+container.appendChild(thirdStyle);
+
 
